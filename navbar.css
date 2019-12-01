@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin:0;
+}
+
+body{
+font-family: 'Bowlby One SC', cursive, sans-serif;
+}
+nav{
+	background:#222;
+	padding: 5px 20px;
+}
+
+ul{
+	list-style-type: none;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+ .menu li{
+ 	font-size:19px;
+ 	padding: 15px 5px; 
+
+ 
+ }
+.menu li a {
+	display: block;
+}
+.logo a{
+	font-size: 20px;
+}
+.button.secondary{
+
+}
+
+/*Mobile Menu*/
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items:center;
+}
+
+
+
+.menu a:hover {
+	text-decoration: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border: 5px solid #465958;
+	border-radius:50em;
+		padding:7px 20px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px 20px;
+  overflow: hidden;
+  border: 2px solid #e7e7e7;
+  border-radius: 0.5em;
+  background-color: #222;
+}
+
+.item{
+	display:block;
+	width:auto;
+}
+
+.toogle{
+	display: none;
+}
+
+.logo{
+	order:0;
+}
+.item{
+	order:1;
+
+}
+.button{
+	order:2;
+
+}
+.button{
+
+		border-left: 1px solid grey;
+
+}
+.menu li{
+	padding:8px 10px;
+}
+
+.menu li.button{
+	padding-right:0;
+}
+
+
+
+.button a{
+	text-decoration:none;
+	padding:7px 15px;
+	background: #589ead;
+	border: 1px solid #465958;
+	border-radius:50em;
+	border-color: #b3a2a8;
+
+}
+
+.button.secondary a {
+	background:transparent;
+
+}
+
+.button a :hover{
+	transition:all .25s;
+
+
+}
+.button.secondary a:hover{
+	color:#ddd;
+}
+
+
+
+
+
+
+
+
+
+
+.toggle{
+cursor:pointer;
+}
+
+.bars{
+	background: #999;
+	display: inline-block;
+	height: 2px;
+	position: relative;
+	width: 18px;
+}
+
+.bars::before,.bars::after{
+	background:#999;
+	content:"";
+	display: inline-block;
+	height:2px;
+	position: absolute;
+	width:18px;
+
+}
+.bars::before{
+	top:5px;
+}
+.bars::after{
+	top:-5px;
+}
+
+
+/* .item{
+ 	display:block;
+ 	width:auto;
+ }
+
+ .toogle{
+ 	display:none;
+ }
+
+.logo{
+	order:0;
+}
+
+.item{
+	order:1;
+}
+
+.button{
+	order:2;
+}
+
+.menu li{
+	padding:15px 10px;
+}
+
+.menu li.button{
+	padding-right:0;
+}
+
+*/

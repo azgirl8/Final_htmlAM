@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="navbar.css">	   
+
+<style>
+
+
+
+body {
+
+	background: url('log.jpg') no-repeat top center;
+	background-size: 1550px 1190px;
+  font-family: Arial;
+  margin: 0;
+font-family: 'Bowlby One SC','McLaren','Handlee', cursive;
+
+}
+*{
+
+margin:0;
+
+padding:;
+box-sizing: border:box;
+outline: none;
+
+
+
+}
+
+.font {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+		font-family: 'Open Sans Condensed' , sans-serif;
+}
+
+
+
+.wrapper{
+left: 20%;
+position: absolute;
+top: 21% ;
+transform: translateY(-35%);
+transform: translateX(-15%);
+width: 90%;
+padding: 0 50px;
+}
+
+
+table{
+max-width: 600px;
+margin: 0 auto;
+color: white;
+background-color: rgba(57,66,87,.65);
+border-radius: 10px;
+padding: 30px;
+display: flex;
+box-shadow: 0 0 10px;
+font-size: 18px;
+}
+
+.input-fields{
+display: flex;
+flex-direction: column;
+margin-right: 4%
+}
+
+#btn{
+background-color:#283352;
+height: 55px;
+width: 150px;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+}
+
+
+@media screen and (max-width: 600px){
+table{
+flex-direction: column;
+}
+
+}
+}
+
+
+
+</style>
+</head>
+<body>
+
+	<nav>
+<ul class="menu">
+		<li class="logo"><a href="#">FollowMEBA.com</a></li>
+		<li class="item"><a href="index.html">Home</a>
+		<li class="item"><a href="about.html">About</a>
+		<li class="item"><a href="events.html">Events</a>
+		<li class="item"><a href="shop.html">Shop</a>
+			<li class="item"><a href="form.html">Message</a>
+		<li class="item button"><a href="login.html">Login</a></li>
+	<li class="item button secondary"><a href="signup.html">Sign Up</a></li>
+		<li class="toogle"><a href="#"><span class="bars"></span></a></li>
+</ul>
+	</nav>
+
+
+<div class ="font">
+<tr>
+<td>
+<div class = "wrapper">
+<div class = "input-fields">
+
+<table align = "center" border="0" cellspacing="15">
+
+<form method = "post" action="login.php">
+
+
+<tr><td><h3>Login</h3></td></tr>
+
+<tr><td>
+Username<td><input type="text" placeholder="username" name="username"></td></tr>
+
+
+<tr><td>Password<td><input type = "password"   placeholder="password" name="password"></td></tr>
+
+</div>
+</div>
+</div>
+
+<tr><td align="center" colspan="2">
+<input type="submit" name="submit1" id="btn">
+</form>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="navbar.css">	   
+
+<style>
+
+
+
+body {
+
+	background: url('sign.png') no-repeat top center;
+	background-size: 1580px 800px;
+  font-family: Arial;
+  margin: 0;
+font-family: 'Bowlby One SC','McLaren','Handlee', cursive;
+
+}
+*{
+
+margin:0;
+
+padding:;
+box-sizing: border:box;
+outline: none;
+
+
+
+}
+
+.font {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+		font-family: 'Open Sans Condensed' , sans-serif;
+}
+
+
+
+.wrapper{
+left: 20%;
+position: absolute;
+top: 15% ;
+transform: translateY(-35%);
+transform: translateX(-15%);
+width: 95%;
+padding: 75px 20px;
+}
+
+
+table{
+max-width: 550px;
+margin: 0 auto;
+color: white;
+background-color: rgba(57,66,87,.65);
+border-radius: 10px;
+padding: 30px;
+display: flex;
+box-shadow: 0 0 10px;
+font-size: 18px;
+}
+
+.input-fields{
+display: flex;
+flex-direction: column;
+margin-right: 4%
+}
+
+#btn{
+background-color: #283352;
+height: 55px;
+width: 150px;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 600px){
+table{
+flex-direction: column;
+}
+
+}
+}
+
+
+
+</style>
+</head>
+<body>
+
+	<nav>
+<ul class="menu">
+		<li class="logo"><a href="#">FollowMEBA.com</a></li>
+		<li class="item"><a href="index.html">Home</a>
+		<li class="item"><a href="about.html">About</a>
+		<li class="item"><a href="events.html">Events</a>
+		<li class="item"><a href="shop.html">Shop</a>
+			<li class="item"><a href="form.html">Message</a>
+			<li class="item button"><a href="login.html">Login</a></li>
+	<li class="item button secondary"><a href="signup.html">Sign Up</a></li>
+		<li class="toogle"><a href="#"><span class="bars"></span></a></li>
+</ul>
+	</nav>
+
+
+<div class ="font">
+<tr>
+<td>
+<div class = "wrapper">
+<div class = "input-fields">
+
+<table align = "center" border="0" cellspacing="15">
+
+<form method = "post" action="sign.php"
+
+<tr><td><h3>Create An Account</h3></td></tr>
+
+
+ <tr><td>First Name<td><input type ="text" placeholder="First Name" name="firstname"></td></tr>
+
+<tr><td>
+Last Name<td><input type="text" placeholder="Last Name" name="lastname"></td></tr>
+
+<tr><td>
+Email Adress<td><input type="text" placeholder="Email Address" name="email"></td></tr>
+<tr><td>
+Password<td><input type = "password"   placeholder="Password" name="password"></td></tr>
+<tr><td>
+Confirm Password<td><input type = "password"   placeholder="Confirm Password" name="password "></td></tr>
+<tr><td>
+Gender<td><input type="radio" name="r1">Male<input type="radio"  name="r1">Female<input type="radio"  name="r1">Other</td></tr>
+
+<tr><td>
+Age<td><select>
+	<option value = "Select">Select</option>
+	<option value = "Below 18">Below 18</option>
+	<option value = "18 - 25">18-25</option>
+	<option value = "26 - 35">26-35</option>
+		<option value = "36 - 45">36-45</option>
+	<option value = "46 - 56">46-56</option>
+	<option value = "56+">56 +</option>
+
+</select></td></tr>
+
+
+
+</div>
+</div>
+</div>
+
+<div class="hov">
+	<tr><td align="center" colspan="2">
+<input type="Submit" name="submit" id="btn">
+</div>
+</div>
+</body>
+</html>
